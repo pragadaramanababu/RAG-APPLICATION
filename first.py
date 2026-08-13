@@ -24,7 +24,6 @@ import chromadb
 
 from google.colab import userdata
 groqapikey=userdata.get('GROQ_AYPI_KE')
-print(groqapikey[:10])
 
 client = Groq(api_key=groqapikey)
 print("GROQ client created succresfully!!")
